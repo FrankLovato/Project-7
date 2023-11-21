@@ -38,15 +38,35 @@ header img{
     margin: 3px;
 }
 .navigation{
-    display: flex;
-}
-.navigation{
-    list-style: none;
+    color: #0042f7;
     margin: 4px;
     padding: 3px;
     border: 1px solid blue;
     background-color: white;
-    color: #0042f7;
+}
+.navigation li a{
     text-decoration: none;
+    color: #0042f7;
+    margin: 4px;
+    padding: 3px;
+    border: 1px solid blue;
+    
+}
+.navigation li a:hover{
+    border: 1px solid blue;
+    background-color: white;
+    color: #0042f7;
+  }  
+  section{
+    width: 900px;
+    background-image: url("Images/bacground.jpg");
+    background-repeat: repeat;
+  }
+    article{
+        width:800px;
+        text-align: left;
+    }
+
+
     
     
